@@ -48,7 +48,7 @@ const MultiCounter = () => {
 
       {/* 右側の領域（各ボタンの押下回数） */}
       <div className="right-panel">
-        <h2>各ボタンの押下回数</h2>
+        <h2>各皿の枚数</h2>
         <ul>
           <li>100: {buttonCounts[100]} 枚</li>
           <li>180: {buttonCounts[180]} 枚</li>
