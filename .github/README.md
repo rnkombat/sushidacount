@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# 寿司打の皿数と合計金額をカウントするアプリ（手動）
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+　拡張機能の使用が公式で禁止されているものの、どうしても途中経過を知りたくて作りました。（そもそも自動でカウントしてポップアップで表示するような拡張機能を作る技術は持っていないですが......）
 
-## Available Scripts
+　できるだけPCでもモバイルでも使いやすいようにしてあるので、友達と寿司打をするときに「あと〇〇円で△△円だ！」みたいに使うと寿司打精進も多少捗るかと思います。
 
-In the project directory, you can run:
+## 使い方
 
-### `npm start`
+　使い方は簡単で、緑のボタンを押せば皿数と合計金額が変わり、下の赤い取り消しボタンで追加を取り消せます。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+　全てをリセットしたいときはページをリロードしてください。（この使用上、ログは残りません）
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+　自分がプレイしている横で誰かにカウントしてもらって、適宜途中経過を読み上げてもらうのが現実的な使い方かと思います。
 
-### `npm test`
+## 製作後記
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+　製作者がReactとGitに慣れるために開発したという側面もあるので、かなり粗もあるかと思います......すみません......
 
-### `npm run build`
+　修正した方が良い点や、こうすればもっと使いやすくなる等のご意見があればぜひお教えいただきたいです......！
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 使用フレームワーク
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+・React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Github pagesへのリンク（ここで使えます！）
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ https://rnkombat.github.io/sushidacount/
