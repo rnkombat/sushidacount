@@ -15,3 +15,7 @@
 ## 使用フレームワーク
 
 ・React
+
+## URL
+
+ https://rnkombat.github.io/sushidacount/
