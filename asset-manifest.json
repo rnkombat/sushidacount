@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sushidacount/static/css/main.62987ab5.css",
+    "main.js": "/sushidacount/static/js/main.ea17ee62.js",
+    "index.html": "/sushidacount/index.html",
+    "main.62987ab5.css.map": "/sushidacount/static/css/main.62987ab5.css.map",
+    "main.ea17ee62.js.map": "/sushidacount/static/js/main.ea17ee62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62987ab5.css",
+    "static/js/main.ea17ee62.js"
+  ]
+}
