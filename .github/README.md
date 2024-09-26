@@ -16,6 +16,6 @@
 
 ・React
 
-## URL
+## Github pagesへのリンク
 
  https://rnkombat.github.io/sushidacount/
