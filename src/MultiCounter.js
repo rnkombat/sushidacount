@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './MultiCounter.css'; // CSSファイルをインポート
+import './MultiCounter.css';
 
 const MultiCounter = () => {
   const [total, setTotal] = useState(0);
@@ -25,11 +25,11 @@ const MultiCounter = () => {
 
   return (
     <div className="multi-counter-container">
-      {/* 左側の領域（合計、追加ボタン、取り消しボタン） */}
+      {/* 合計、追加ボタン、取り消しボタン*/}
       <div className="left-panel">
         <h1 className="total">合計: {total}円</h1>
         <div className="button-group">
-          {/* 各ボタンに異なる数字を設定 */}
+          {/*追加ボタン*/}
           <button className="add-button" onClick={() => addNumber(100)}>+100</button>
           <button className="add-button" onClick={() => addNumber(180)}>+180</button>
           <button className="add-button" onClick={() => addNumber(240)}>+240</button>
@@ -37,7 +37,7 @@ const MultiCounter = () => {
           <button className="add-button" onClick={() => addNumber(500)}>+500</button>
         </div>
         <div className="button-group">
-          {/* 各取り消しボタン */}
+          {/*取り消しボタン*/}
           <button className="subtract-button" onClick={() => subtractNumber(100)}>取 消</button>
           <button className="subtract-button" onClick={() => subtractNumber(180)}>取 消</button>
           <button className="subtract-button" onClick={() => subtractNumber(240)}>取 消</button>
@@ -46,7 +46,7 @@ const MultiCounter = () => {
         </div>
       </div>
 
-      {/* 右側の領域（各ボタンの押下回数） */}
+      {/*各ボタンの押下回数*/}
       <div className="right-panel">
         <h2>各皿の枚数</h2>
         <ul>
